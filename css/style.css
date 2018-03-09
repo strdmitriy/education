@@ -1539,14 +1539,15 @@ body{
         font-size:37px;
         line-height:47px;
         font-weight:700;
-        color:#333
+        color:#333333;
     }
     .promo__text{
         width:1000px;
         margin:57px 0 30px;
         font-size:18px;
         line-height:31px;
-        font-weight:400
+        font-weight:300;
+        color: #333333;
     }
     .promo__text--size{
         margin:55px auto 77px;
@@ -1672,7 +1673,7 @@ body{
         margin:26px 0 0;
         font-size:19px;
         line-height:32px;
-        font-weight:400;
+        font-weight:300;
         text-align:center
     }
 }
@@ -1682,7 +1683,7 @@ body{
         background-image:url(../img/conf-desktop-large.jpg)
     }
     .event--autor{
-        height:536px;
+        height:537px;
         background-image:url(../img/autor-desktop-large.jpg)
     }
     .event--news,.event--news-two{
