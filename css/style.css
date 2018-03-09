@@ -155,8 +155,8 @@ textarea{
 }
 body{
     margin:0;
-    font-family:Circe,Aria,sans-serif;
-    background:#fff
+    font-family:"Circe","Arial",sans-serif;
+    background:#fff;
 }
 .toggle,.toggle:active,.toggle:hover{
     background-color:transparent
@@ -235,7 +235,10 @@ body{
     font-size:20px;
     color:#fff
 }
-.fixed:hover .main-navigation__link,.fixed:hover .social__link--fb svg,.fixed:hover .social__link--ins svg,.fixed:hover .social__link--vk svg{
+.fixed:hover .main-navigation__link,
+.fixed:hover .social__link--fb svg,
+.fixed:hover .social__link--ins svg,
+.fixed:hover .social__link--vk svg{
     color:#000
 }
 .fixed:hover .toggle::before{
@@ -243,7 +246,7 @@ body{
     box-shadow:0 8px 0 0 #000,0 16px 0 0 #000
 }
 .fixed:hover .main-navigation__link:hover{
-    opacity:.8
+    opacity:.5
 }
 .fixed:hover .logo img{
     display:none
@@ -291,7 +294,6 @@ body{
     border:none;
     background-color:#e62565;
     color:#fff;
-    font-family:Circe,Arial,sans-serif;
     font-size:18px;
     font-weight:400;
     line-height:34px;
@@ -299,6 +301,9 @@ body{
     padding:2px 32px;
     cursor:pointer;
     letter-spacing:.11px
+}
+.search-form__button:hover {
+  background-color: #f12759;
 }
 .searchflex{
     display:flex
@@ -339,7 +344,6 @@ body{
     background-size:cover
 }
 .main-navigation__link{
-    font-family:Circe-Bold,Arial,sans-serif;
     display:block;
     padding:3px 0 3px 24px;
     font-size:15px;
@@ -349,14 +353,12 @@ body{
     color:#fff;
     text-decoration:none
 }
-.description__autor,.description__date,.description__date--size{
-    font-family:Circe,Arial,sans-serif
-}
+
 .description,.email,.program-info,.program__title,.promo,.promo__text,.reason-items__text,.reason__title{
     text-align:center
 }
 .main-navigation__link:hover{
-    color:#d3d3d3
+    opacity: 0.5;
 }
 .main-navigation__link:active{
     color:#f2f2f2
@@ -425,7 +427,6 @@ body{
     font-weight:400
 }
 .description__title,.description__title--size{
-    font-family:Circe,Arial,sans-serif;
     font-size:15px
 }
 .description__title{
@@ -442,7 +443,6 @@ body{
 .description__text,.description__text--size{
     font-weight:700;
     color:#fff;
-    font-family:"Circe Extra-Bold",Arial,sans-serif;
     text-transform:uppercase
 }
 .description__text{
@@ -456,18 +456,15 @@ body{
     line-height:42px
 }
 .description__text--history{
-    font-family:"Circe Extra-Bold",Arial,sans-serif;
     font-size:24px;
     line-height:39px
 }
 .description__text--small{
-    font-family:"Circe Extra-Bold",Arial,sans-serif;
+
     font-size:20px;
     line-height:29px
 }
-.promo,.result__title{
-    font-family:Circe,Aria,sans-serif
-}
+
 .promo{
     width:260px;
     margin:41px auto 0;
@@ -617,7 +614,7 @@ body{
 .email__title{
     margin:0 auto;
     width:210px;
-    font-family:"Circe Extra-Bold",Arial,sans-serif;
+
     font-size:28px;
     font-weight:900;
     letter-spacing:.23px;
@@ -636,7 +633,7 @@ body{
     border:none;
     background-color:#e62565;
     color:#fff;
-    font-family:Circe,Arial,sans-serif;
+
     font-weight:400;
     line-height:34px;
     border-radius:6px;
@@ -646,7 +643,6 @@ body{
     letter-spacing:.14px
 }
 .clients__heading,.news__heading{
-    font-family:"Circe Extra-Bold",Arial,sans-serif;
     font-size:37px;
     font-weight:400;
     line-height:47px;
@@ -742,7 +738,11 @@ body{
     font-weight:700;
     line-height:22px;
     color:#5c5c5c;
-    margin-bottom:11px
+    margin-bottom:11px;
+    text-decoration: none;
+}
+.news__title:hover a {
+  color: grey;
 }
 .news__date{
     position:absolute;
@@ -757,7 +757,7 @@ body{
     text-align:center
 }
 .footer__address,.footer__copyright,.footer__email a,.footer__phone a{
-    font-family:Circe,Aria,sans-serif;
+
     line-height:32px;
     color:#f0f0f0
 }
@@ -852,8 +852,11 @@ body{
     height:35px;
     color:#fff
 }
-.footer-social .footer-social__link--fb:hover svg,.footer-social .footer-social__link--ins:hover svg,.footer-social .footer-social__link--vk:hover svg,.footer-social .footer-social__link--youtube:hover svg{
-    color:red
+.footer-social .footer-social__link--fb:hover svg,
+.footer-social .footer-social__link--ins:hover svg,
+.footer-social .footer-social__link--vk:hover svg,
+.footer-social .footer-social__link--youtube:hover svg{
+    opacity: 0.6;
 }
 .page-footer__subscribe-form{
     width:100%;
@@ -882,7 +885,7 @@ body{
     border:none;
     background-color:#e62565;
     color:#fff;
-    font-family:Circe,Arial,sans-serif;
+
     font-weight:400;
     border-radius:6px;
     padding:2px 20px 2px 18px;
@@ -922,7 +925,7 @@ body{
     width:300px
 }
 .subscribe__heading{
-    font-family:"Circe Extra-Bold",Arial,sans-serif;
+
     font-size:37px;
     font-weight:400;
     letter-spacing:.23px;
@@ -947,7 +950,6 @@ body{
 .subscribe__button{
     border:none;
     background-color:#e62565;
-    font-family:Circe,Arial,sans-serif;
     border-radius:6px;
     padding:10px 52px;
     font-size:22px;
@@ -1120,13 +1122,13 @@ body{
         line-height:34px
     }
     .promo{
-        font-family:Circe-Light,Aria,sans-serif;
+
         width:620px;
         margin:54px auto 0;
         padding-bottom:22px
     }
     .promo__title{
-        font-family:Circe-ExtraBold,Aria,sans-serif;
+
         margin:0;
         font-size:23px;
         line-height:40px;
@@ -1300,7 +1302,7 @@ body{
     .email__title{
         margin-top:20px;
         width:500px;
-        font-family:"Circe Extra-Bold",Arial,sans-serif;
+
         font-size:25px;
         line-height:22px;
         font-weight:900
@@ -1415,8 +1417,10 @@ body{
         height:20px;
         color:#fff
     }
-    .social .social__link--fb:hover svg,.social .social__link--ins:hover svg,.social .social__link--vk:hover svg{
-        color:red
+    .social .social__link--fb:hover svg,
+    .social .social__link--ins:hover svg,
+    .social .social__link--vk:hover svg{
+        opacity: 0.6;
     }
     .search{
         float:left;
@@ -1438,6 +1442,9 @@ body{
     }
     .fixed:hover .btn-search svg{
         color:#000
+    }
+    .btn-search:hover svg {
+      opacity: 0.6;
     }
     .intro__wrapper{
         float:left;
@@ -1522,7 +1529,6 @@ body{
         margin-left:5px
     }
     .promo{
-        font-family:Circe-Light,Aria,sans-serif;
         width:1060px;
         margin:82px auto 0;
         padding-bottom:22px;
@@ -1769,7 +1775,6 @@ body{
         width:540px;
         margin-top:26px;
         margin-bottom:50px;
-        font-family:"Circe Extra-Bold",Arial,sans-serif;
         font-size:37px;
         font-weight:900;
         letter-spacing:.23px;
@@ -1798,7 +1803,6 @@ body{
         display:block;
         margin:-32px 0 9px;
         text-align:center;
-        font-family:"Circe Extra-Bold",Arial,sans-serif;
         font-size:29px;
         font-weight:900;
         width:100%;
@@ -1840,7 +1844,6 @@ body{
     .reviews__text{
         margin-top:62px;
         margin-bottom:28px;
-        font-family:Circe,Aria,sans-serif;
         font-size:20px;
         font-weight:400
     }
@@ -1853,7 +1856,6 @@ body{
         margin:auto
     }
     .reviews .reviews__author figcaption{
-        font-family:"Circe Extra-Bold",Arial,sans-serif;
         font-size:22px;
         text-transform:uppercase;
         font-weight:400;
@@ -1862,7 +1864,6 @@ body{
     }
     .reviews .reviews__author .reviews__position{
         display:block;
-        font-family:Circe,Arial,sans-serif;
         font-size:18px;
         text-transform:none;
         font-weight:300;
