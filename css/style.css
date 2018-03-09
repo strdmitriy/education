@@ -201,7 +201,7 @@ body{
 .toggle.toggle--opened::after,.toggle.toggle--opened::before{
     content:"";
     position:absolute;
-    top:29px;
+    top:7px;
     left:24px;
     width:27px;
     height:3px;
@@ -1596,7 +1596,8 @@ body{
         font-size:27px;
         line-height:30px;
         font-weight:900;
-        text-transform:uppercase
+        text-transform:uppercase;
+        color: #333333;
     }
     .result__title--hour{
         margin-top:4px;
@@ -1667,7 +1668,8 @@ body{
         font-size:25px;
         line-height:32px;
         font-weight:900;
-        text-align:center
+        text-align:center;
+        color: #333333;
     }
     .reason-items__text{
         margin:26px 0 0;
@@ -1722,12 +1724,14 @@ body{
     }
     .program__title{
         margin:0 auto 30px;
-        font-size:36px
+        font-size:36px;
+        color: #333333;
     }
     .program-info{
         width:308px;
         height:389px;
-        text-align:center
+        text-align:center;
+        color: #333333;
     }
     .program-autor,.program-autor img,.program-conf,.program-conf img,.program-partner,.program-partner img{
         width:310px;
@@ -1837,7 +1841,8 @@ body{
     }
     .reviews__item{
         text-align:center;
-        position:relative
+        position:relative;
+        color: #333333;
     }
     .reviews__item:nth-child(1){
         opacity:1
